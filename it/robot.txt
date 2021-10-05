@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: / privacy-cookies.php /
+Disallow: / portfolio.php /
+Noindex: / privacy-cookies.php /
+Noindex: / portfolio.php /
