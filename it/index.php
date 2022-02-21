@@ -177,7 +177,7 @@
 
         <div class="container">
 
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+            <form id="contact-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 
                 <label for="name">Il Tuo Nome *</label>
                 <input id="name" REQUIRED type="text" name="name" placeholder="Inserisci il tuo nominativo ..."></input>
