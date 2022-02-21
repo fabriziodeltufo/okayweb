@@ -179,7 +179,7 @@
     <div class="container-grid">
       <div class="container">
 
-          <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+          <form id="contact-form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 
               <label for="name">Your Name *</label>
               <input id="name" REQUIRED type="text" name="name" placeholder="Your name.."></input>
@@ -199,9 +199,26 @@
               <div class="container-btn"><br><a href="privacy-cookies.php">Click here for the Privacy / Cookies Policy.<a/></div>
 
               <div class="container-btn">
-                <input id="btn-services" class="btn-shape" type="submit" name="submit" value="Send" ></input>
+
+                <input id="btn-services"
+                class="g-recaptcha btn-shape"
+                type="submit"
+                name="submit"
+                value="Send"
+                data-sitekey="6LfBIZEeAAAAACWedZHzsM3RUKS_A79VpnDJ-yrJ"
+                data-callback='onSubmit'
+                data-action='submit'>
+
+                <!-- <input id="btn-services" class="btn-shape" type="submit" name="submit" value="Send" > -->
                 <h3><?php echo $result ?></h3>
               </div>
+
+              <!-- RECAPTCHA PANEL -->
+              <!-- Add attributes to your html button -->
+              <!-- <button class="g-recaptcha"
+                      data-sitekey="6LfBIZEeAAAAACWedZHzsM3RUKS_A79VpnDJ-yrJ"
+                      data-callback='onSubmit'
+                      data-action='submit'></button> -->
           </form>
       </div>
     </div>

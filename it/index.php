@@ -197,7 +197,16 @@
                 <div class="container-btn"><br><a href="privacy-cookies.php">Clicca qui per la Privacy / Cookies Policy.<a/></div>
 
                 <div class="container-btn">
-                  <input id="btn-services" class="btn-shape" type="submit" name="submit" value="Invia" ></input>
+                  <input id="btn-services"
+                  class="g-recaptcha btn-shape"
+                  type="submit"
+                  name="submit"
+                  value="Invia"
+                  data-sitekey="6LfBIZEeAAAAACWedZHzsM3RUKS_A79VpnDJ-yrJ"
+                  data-callback='onSubmit'
+                  data-action='submit'>
+
+                  <!-- <input id="btn-services" class="btn-shape" type="submit" name="submit" value="Invia" ></input> -->
                   <h3><?php echo $result ?></h3>
                 </div>
             </form>
@@ -206,9 +215,7 @@
       <a href="index.php#top"><i class="fas fa-angle-double-up fa-2x btn-top"></i></a>
 </div>
 
-    
+
 </section>
 
 <?php include ('footer.php'); ?>
-
-
