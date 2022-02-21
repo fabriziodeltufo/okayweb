@@ -19,7 +19,7 @@
 
 
 
-<footer class="footer">OkayWeb.Co.Uk &copy 2020 - 2021. Tutti i Diritti Riservati.</footer>
+<footer class="footer">OkayWeb.Co.Uk &copy 2020 - 2022. Tutti i Diritti Riservati.</footer>
 
 </body>
 </html>

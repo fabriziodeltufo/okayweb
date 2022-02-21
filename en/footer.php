@@ -14,8 +14,7 @@
         $(".header-hamburger").on( "click" , function() { $(".header-menu").toggleClass("header-menu-open"); } );
     </script>
 
-    <footer class="footer">OkayWeb.Co.Uk &copy 2020 - 2021. All Rights Reserved.</footer>
+    <footer class="footer">OkayWeb.Co.Uk &copy 2020 - 2022. All Rights Reserved.</footer>
 
 </body>
 </html>
-
