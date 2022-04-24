@@ -200,16 +200,16 @@
 
               <div class="container-btn">
 
-                <input id="btn-services"
+                <!-- <input id="btn-services"
                 class="g-recaptcha btn-shape"
                 type="submit"
                 name="submit"
                 value="Send"
                 data-sitekey="6LfBIZEeAAAAACWedZHzsM3RUKS_A79VpnDJ-yrJ"
                 data-callback='onSubmit'
-                data-action='submit'>
+                data-action='submit'> -->
 
-                <!-- <input id="btn-services" class="btn-shape" type="submit" name="submit" value="Send" > -->
+                <input id="btn-services" class="btn-shape" type="submit" name="submit" value="Send" >
                 <h3><?php echo $result ?></h3>
               </div>
 
